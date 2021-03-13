@@ -20,8 +20,8 @@ public class SuperHot : MonoBehaviour
         float y = Input.GetAxisRaw("Vertical");
 
 
-        float time = (x != 0 || y != 0) ? 0.02f : 1f;
-        float lerpTime = (x != 0 || y != 0) ? .05f : .5f;
+        float time = (x != 0 || y != 0) ? 1f : 0.02f;
+        float lerpTime = (x != 0 || y != 0) ? .5f : .05f;
 
         time = yeet ? 1 : time;
         lerpTime = yeet ? .1f : lerpTime;
