@@ -5,7 +5,7 @@ using UnityEngine;
 public class SuperHot : MonoBehaviour
 {
     bool yeet;
-    // start the couroutine ActionYeet wherever minor actions like picking and throwing objects are to be performed!
+    // start the couroutine Yeet wherever minor actions like picking and throwing objects are to be performed!
     public IEnumerator Yeet(float time)
     {
         yeet = true;
